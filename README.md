@@ -10,7 +10,8 @@ recv()를 끊어서 받는 걸 확인했습니다.
 실제 네트워크 상에서는 옵션을 이용해 수신버퍼의 사이즈를 알아내고  
 분할 전송을 해야한다는 것을 알아냈습니다.  
 
-<Algorithm>  
+-Algorithm-  
+
 #define SPLIT 1000  
 buf[10000];  
 int size1=0, size2=0, idx=0;  
